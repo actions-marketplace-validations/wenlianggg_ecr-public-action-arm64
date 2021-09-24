@@ -1,8 +1,11 @@
 # action.yml
 name: "Push to ECR Public (ARM64)"
 description: "Push to ECR Public (ARM64)"
-icon: "arrow-up"
-color: "gray-dark"
+
+branding:
+  icon: "arrow-up"
+  color: "gray-dark"
+
 inputs:
   tags:
     description: "Docker image tags"
