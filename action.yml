@@ -1,6 +1,6 @@
 # action.yml
-name: "CDK action"
-description: "CDK action"
+name: "Push to ECR Public (ARM64)"
+description: "Push to ECR Public (ARM64)"
 inputs:
   tags:
     description: "Docker image tags"
